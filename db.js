@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { boolean } = require("webidl-conversions");
 
 mongoose.connect("mongodb://localhost:27017/todo_app");
 
